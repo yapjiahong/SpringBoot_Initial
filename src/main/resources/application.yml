@@ -1,0 +1,19 @@
+logging:
+  file:
+    path: "/Users/jiahongyap/IntelliJ/SpringBootInit/logs/"
+    name: ${logging.file.path:./}SpringBootInit.log
+
+
+static:
+  get:
+    messages: Haiya!!!, Nani the Fcuk?!, GG Simida..., 233 666
+#      - "Haiya!!!"
+#      - "Nani the Fcuk?!"
+#      - "GG Simida..."
+#      - "233 666"
+  post:
+    message: "Hello Sohai!!"
+
+#debug
+debug: false
+trace: false
